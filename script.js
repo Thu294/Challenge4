@@ -3,10 +3,10 @@ var startButton = document.querySelector(".button")
 var startContainer = document.querySelector("header")
 var questionArea = document.querySelector("section")
 var questions = [{
-questionText: "what is my favorite color?",choices: ["red", "blue", "white", "black"], correctAwnser: "black" }, { 
-questionText: "what many states in the USA?", choices: [52,20,49,30], correctAwnser: 52 },
-{questionText:"what is my favorites drink?", choices:["wind","coke","boba","beer"],correctAwnser:"boba"},
-{questionText:"what is my pet name?", choices:["Lian","Via","Tori","Meme"], correctAwnser:"Tori"}]
+questionText: "what is 'var' mean in coding?",choices: ["variable", "vans", "vaccine", "dontknow"], correctAwnser: "variable" }, { 
+questionText: "what is <ol>?", choices: ["oil", "chocolate", "ordered list", "unordered list"], correctAwnser: "ordered list" },
+{questionText:"how many programming languages are there?", choices:[100, 2000, 3000, "9000 or more than it"],correctAwnser:"9000 or more than it"},
+{questionText:"what is my favorite in coding?", choices:["html","css","c++","Java"], correctAwnser:"Java"}]
 
 var currentQuestionIndex = 0
 var questionText = document.querySelector("#questiontext")
